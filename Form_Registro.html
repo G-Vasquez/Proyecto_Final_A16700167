@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<style>
+    h1 {
+	color: white;
+	font-family: 'Cherry Swash', cursive;
+    }
+    label{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    }
+    
+</style>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro de Usuario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body background="cuenta.jpg" bgcolor="FFCECB">
+    <form method="POST" action="cuenta.php">
+    <h1>Formato de Registro de Cuentas de Acceso</h1>
+    <label>Ingrese los datos correspondientes para crear una cuenta de acceso al sistema:</label><br><br>
+    <label for="nombre">Nombre(s) del Alumno:</label>
+	<input type="text" name="nombre" value="" size="30" maxlength="50" required="true"/><br/>
+	<br>
+    <label for="apellido">Apellidos:</label>
+    <input type="text" name="apellidos" value="" size="30" maxlength="50" required="true"/><br>
+    <br>
+    <label for="correo">Correo Electronico:</label>
+    <input type="email" name="correo" value="" size="30" maxlength="50" required="true"/><br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" value="" size="30" maxlength="50" required="true"/><br>
+    <br>
+    <label for="password">Repetir password:</label>
+    <input type="password" name="password2" value="" size="30" maxlength="50" required="true"/><br>
+    <br>
+    <br>
+    <input type="submit" name="btncrear" value="Crear">
+    
+    </form>
+
+</body>
+</html>

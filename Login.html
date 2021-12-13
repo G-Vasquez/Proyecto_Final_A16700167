@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table{
+		border: 3px solid blue;
+		background-color: cyan;
+		background-position-x:center;
+  		background-position-y:center;
+  		width: 350px;
+  		margin: 0 auto;
+
+	}
+    input [type=text], input [type=password] {
+		width: 100px;
+		padding: 8px 20px;
+		border: 2px solid orange;
+	}
+    img{
+		width: 100px;
+		height: 100px;
+	}
+    label{
+		font-size: 14px;
+		font-weight: bold;
+		font-family: arial;
+	}
+    input [type=submit]{
+		background-color: green;
+		color: white;
+		padding: 8px 10px;
+		margin: 8px 0px;
+		border: solid;
+		cursor: pointer;
+		width: 40px;
+	}
+    h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: orangered;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+    }
+</style>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body background="fondo11.jpg" bgcolor="FFCECB">
+    <form method="POST" action="login.php">
+        <br>
+        <br><br>
+        <h1>BIENVENIDO (A) AL:</h1>
+        <h1>Sistema de Registro  de Estudiantes en Linea "Prof. FLAVIO GUILLEN"</h1>
+        
+        <table>
+			<tr><td colspan="2" style="background-color: #33A8DB; padding-bottom: 5px; padding-top: 5px;"><label>Login</label></td></tr>
+			<tr><td align="center" rowspan="5"><img src="login1.png"/></td><td><label>Correo Electronico:</label></td></tr>
+			<tr><td><input type="text" name="txtusuario"/></td></tr>
+			<tr><td><label>Password:</label></td></tr>
+			<tr><td><input type="password" name="txtpassword"/></td></tr>
+			<tr><td><input type="submit" value="Ingresar" name="btningresar"/></td></tr>
+            <tr><td><label>No tienes cuenta ¡¡Registrate!!</label></td></tr>
+			<tr><td><input type="submit" value="Registrar" name="btnregistrar"/></td></tr>
+
+		</table>
+    </form>
+</body>
+</html>

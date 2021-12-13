@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<style>
+label{
+    color: black;
+    font-family: fantasy;
+    text-shadow: 1px 1px 1px red;
+}
+
+</style>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina de Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body background="imagen1.jpg" bgcolor="FFCECB">
+    <form method="POST" action="pre-registros.php">
+        <h2>Formulario de Pre-Registro en Linea Para Estudiantes de Nuevo Ingreso</h2>
+        <label>Para poder inscribirte es necesario llenar el formulario para registrar tu informacion personal</label><br>
+        <label>¡¡Ingresa tus datos correspondientes!!</label><br><br>
+        <label for="nombre">NOMBRE(S):</label><br>
+        <input type="text" name="nombre" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="apellidos">APELLIDOS:</label><br>
+        <input type="text" name="apellidos" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="curp">C.U.R.P:</label><br>
+        <input type="text" name="curp" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="edad">EDAD:</label><br>
+        <input type="number" name="edad" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="genero">GENERO:</label><br>
+        <input type="text" name="genero" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="grado">GRADO A INGRESAR:</label><br>
+        <input type="number" name="grado" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="grupo">GRUPO:</label><br>
+        <input type="text" name="grupo" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="tutor">NOMBRE DEL TUTOR:</label><br>
+        <input type="text" name="tutor" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="direccion">DIRECCION:</label><br>
+        <input type="text" name="direccion" value="" size="30" maxlength="50" required="true"/><br/>
+        <br>
+        <label for="telefono">TELEFONO:</label><br>
+        <input type="number" name="telefono" value="" size="30" maxlength="50" required="true"/><br/>
+
+
+        <br><br>
+		<input type="submit" name="btnregistrar" value="Registrar">
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
